@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Filtro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: antiquewhite;
+  background-color: black;
+}
+
+.inputs {
+height: 200;
+display: flex;
+flex-direction:column;
+margin: 20px;
+
+}
+
+.inputs input{
+  display: block;
+  width: 700px;
+  margin-block: 10px;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+}
+
+.List{
+  margin: 20px;
+}
